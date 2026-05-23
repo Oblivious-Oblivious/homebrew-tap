@@ -1,8 +1,8 @@
 class Emeralds < Formula
   desc "A package manager for C"
   homepage "https://github.com/Oblivious-Oblivious/Emeralds"
-  url "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.11.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.10.1.tar.gz"
+  sha256 "62acb184e5fb6d863957ad99eb0426275fbc5a9f5b68ce30ddb85d7fdbad7800"
   license "MIT"
 
   depends_on "crystal" => :build
