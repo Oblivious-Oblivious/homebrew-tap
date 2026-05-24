@@ -9,7 +9,7 @@
     "crystal",
     "git"
   ],
-  "install": {
+  "installer": {
     "script": [
       "Set-Location $dir",
       "shards install",
