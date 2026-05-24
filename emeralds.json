@@ -5,7 +5,6 @@
   "license": "MIT",
   "url": "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.10.4.zip",
   "hash": "fe712aa0034468d134b2de05ee4c73bca158c4dcc00fedb9d3b22d7e9b90aeeb",
-  "extract_dir": "Emeralds-0.10.4",
   "depends": [
     "crystal",
     "git"
