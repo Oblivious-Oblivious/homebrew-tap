@@ -1,17 +1,17 @@
 {
-  "version": "0.10.11",
+  "version": "0.10.12",
   "description": "A package manager for C",
   "homepage": "https://github.com/Oblivious-Oblivious/Emeralds",
   "license": "MIT",
-  "url": "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.10.11.zip",
-  "hash": "7a68508cc840cdf3fd0eb584bf04d2ede526a3cfb279b84d1f59581be248fb38",
+  "url": "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.10.12.zip",
+  "hash": "3dd45b78068af184ff84aff588cc900f0d77c889430b9c677b32388fc121b4a8",
   "depends": [
     "crystal",
     "git"
   ],
   "installer": {
     "script": [
-      "Set-Location (Join-Path $dir 'Emeralds-0.10.11')",
+      "Set-Location (Join-Path $dir 'Emeralds-0.10.12')",
       "shards install",
       "shards build --release --no-debug",
       "Copy-Item bin\\emeralds.exe emeralds.exe",
