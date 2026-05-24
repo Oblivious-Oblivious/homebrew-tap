@@ -7,7 +7,7 @@
   "hash": "5e85de2d34d8d05c038d0f6a19b295064749f515c2f3feb97bf80f554f103464",
   "depends": [
     "git",
-    "vs_2022_cpp_build_tools",
+    "https://raw.githubusercontent.com/neatorobito/scoop-crystal/main/bucket/vs_2022_cpp_build_tools.json",
     "crystal"
   ],
   "installer": {
