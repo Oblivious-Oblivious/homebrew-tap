@@ -6,8 +6,9 @@
   "url": "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.10.12.zip",
   "hash": "3dd45b78068af184ff84aff588cc900f0d77c889430b9c677b32388fc121b4a8",
   "depends": [
-    "crystal",
-    "git"
+    "git",
+    "vs_2022_cpp_build_tools",
+    "crystal"
   ],
   "installer": {
     "script": [
