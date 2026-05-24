@@ -11,7 +11,7 @@
   ],
   "installer": {
     "script": [
-      "Set-Location $dir",
+      "Set-Location (Join-Path $dir 'Emeralds-0.10.11')",
       "shards install",
       "shards build --release --no-debug",
       "Copy-Item bin\\emeralds.exe emeralds.exe",
