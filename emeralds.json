@@ -1,10 +1,10 @@
 {
-  "version": "0.10.14",
+  "version": "0.10.15",
   "description": "A package manager for C",
   "homepage": "https://github.com/Oblivious-Oblivious/Emeralds",
   "license": "MIT",
-  "url": "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.10.14.zip",
-  "hash": "feb5645ba57cac07c69bf787daaa544fdb4cf66986bdfd4b5fd700c6e24c5e26",
+  "url": "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.10.15.zip",
+  "hash": "3025f4ae41e83a7173771c5db6c0933af7f4fd1a975b924aa3e28f8524d69790",
   "depends": [
     "git",
     "https://raw.githubusercontent.com/neatorobito/scoop-crystal/main/bucket/vs_2022_cpp_build_tools.json",
@@ -12,11 +12,12 @@
   ],
   "installer": {
     "script": [
-      "Set-Location (Join-Path $dir 'Emeralds-0.10.14')",
+      "Set-Location (Join-Path $dir 'Emeralds-0.10.15')",
       "shards install",
       "shards build --release --no-debug",
       "Copy-Item bin\\emeralds.exe emeralds.exe",
-      "Copy-Item bin\\emeralds.exe em.exe"
+      "Copy-Item bin\\emeralds.exe em.exe",
+      "Copy-Item (Join-Path (& scoop prefix crystal) '*.dll') ."
     ]
   },
   "bin": [
