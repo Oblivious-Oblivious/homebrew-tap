@@ -1,10 +1,10 @@
 {
-  "version": "0.10.10",
+  "version": "0.10.11",
   "description": "A package manager for C",
   "homepage": "https://github.com/Oblivious-Oblivious/Emeralds",
   "license": "MIT",
-  "url": "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.10.10.zip",
-  "hash": "32cdc56d85236fcd25a246f7f75ffd51950d0fd9cdf4976a5066dfcef0a87fa1",
+  "url": "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.10.11.zip",
+  "hash": "7a68508cc840cdf3fd0eb584bf04d2ede526a3cfb279b84d1f59581be248fb38",
   "depends": [
     "crystal",
     "git"
