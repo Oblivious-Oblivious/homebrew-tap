@@ -1,10 +1,10 @@
 {
-  "version": "0.12.3",
+  "version": "0.12.4",
   "description": "A package manager for C",
   "homepage": "https://github.com/Oblivious-Oblivious/Emeralds",
   "license": "MIT",
-  "url": "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.12.3.zip",
-  "hash": "b434768dd9766ed98221d9272a608a031c8507c6eac2b46593676a6ef14d9bc5",
+  "url": "https://github.com/Oblivious-Oblivious/Emeralds/archive/refs/tags/v0.12.4.zip",
+  "hash": "4e8545dc202730c104e67bf53dfc6d4b65908ae6ad7dac80fabb596b6b2b47d7",
   "depends": [
     "git",
     "mingw"
@@ -27,7 +27,7 @@
       "  Remove-Item $tmp",
       "}",
       "$env:PATH = \"$crystalDir\\bin;$env:PATH\"",
-      "Push-Location (Join-Path $dir 'Emeralds-0.12.3')",
+      "Push-Location (Join-Path $dir 'Emeralds-0.12.4')",
       "shards install",
       "$env:EM_INSTALL_METHOD = 'scoop'",
       "shards build --release --no-debug",
